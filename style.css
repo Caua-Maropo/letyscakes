@@ -42,23 +42,33 @@ body {
 }
 
 .destaques {
-  padding: 40px 20px;
+  padding: 70px 40px;
   text-align: center;
 }
 
+.destaques h2 {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 .produto {
   background: white;
   padding: 20px;
-  width: 220px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-  transition: transform 0.2s;
+  width: 240px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
 }
-
+.produto img {
+  border-radius: 15px;
+}
 .produto:hover {
   transform: translateY(-5px);
 }
-
 .produto h3 {
   margin: 10px 0;
 }
@@ -68,10 +78,9 @@ body {
   color: #f4a7b9;
 }
 .footer {
-  text-align: center;
-  padding: 20px;
   background: #fdecef;
-  color: #333;
+  padding: 30px;
+  font-size: 14px;
 }
 .produto-detalhe {
   display: flex;
@@ -98,26 +107,41 @@ body {
 }
 .hero {
   background: #fdecef;
-  padding: 80px 20px;
+  padding: 110px 20px;
   text-align: center;
 }
 
 .hero-text h2 {
-  font-size: 42px;
-  color: #333;
-  margin-bottom: 15px;
+  font-size: 46px;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto 20px;
 }
 
 .hero-text p {
   font-size: 18px;
-  margin-bottom: 25px;
+  color: #555;
+  margin-bottom: 35px;
 }
 
 .hero-text a {
   background: #f4a7b9;
   color: white;
-  padding: 14px 28px;
+  padding: 15px 36px;
   text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 15px;
 }
+.produto {
+  background: white;
+  padding: 20px;
+  width: 240px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+}
+
+.produto img {
+  border-radius: 15px;
+}
+
