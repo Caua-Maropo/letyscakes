@@ -69,10 +69,9 @@ body {
 }
 .footer {
   text-align: center;
-  padding: 15px;
-  background: #f28ab2;
-  color: white;
-  margin-top: 40px;
+  padding: 20px;
+  background: #fdecef;
+  color: #333;
 }
 .produto-detalhe {
   display: flex;
