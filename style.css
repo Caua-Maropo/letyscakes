@@ -219,6 +219,18 @@ body {
 }
 @media (max-width: 768px) {
 
+  @media (max-width: 900px) {
+  .galeria-bolos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .galeria-bolos {
+    grid-template-columns: 1fr;
+  }
+}
+
   .institucional {
     flex-direction: column;
     text-align: center;
@@ -235,6 +247,35 @@ body {
 
 .produto span {
   font-size: 14px;
+}
+/* NOSSOS BOLOS */
+.nossos-bolos {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.nossos-bolos h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.galeria-bolos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.galeria-bolos img {
+  width: 100%;
+  border-radius: 22px;
+  object-fit: cover;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.galeria-bolos img:hover {
+  transform: scale(1.04);
 }
 
 
