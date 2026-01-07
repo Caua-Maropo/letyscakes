@@ -74,3 +74,26 @@ body {
   color: white;
   margin-top: 40px;
 }
+.produto-detalhe {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.produto-detalhe img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.botao-whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  background: #25d366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
